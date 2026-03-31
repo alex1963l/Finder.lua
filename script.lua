@@ -12,7 +12,7 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
 local SETTINGS_FILE = "Miku_v1_SecureWebhook.json" 
-local FORCE_DELAY = 0.25 
+local FORCE_DELAY = 0.21 
 
 local function playClickSound()
     task.spawn(function()
